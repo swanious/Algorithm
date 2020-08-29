@@ -1,5 +1,5 @@
-N = 94521583
-F = 7
+N = 5
+F = 3
 
 N_str = ''
 N_str = str(N)[:-2] + "0" * 2
@@ -11,7 +11,7 @@ while stoi % F != 0:
 num_save = stoi
 
 if len(str(num_save)[-2:]) < 2:
-    print('0' + str(num_save)[-2:])
+    print(f'{num_save:02d}'[-2:])
 else:
     print(str(num_save)[-2:])
 
