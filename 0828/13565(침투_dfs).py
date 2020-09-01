@@ -46,8 +46,6 @@ def dfs(y, x):
     li[y][x] = 0
     return 0
 
-
-
 iny, inx = map(int,input().split())
 li = []
 for i in range(iny):

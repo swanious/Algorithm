@@ -29,6 +29,7 @@ for i in range(iny):
 result = []
 for i in range(inx):
     result.append([0, i])
+    # 초기 점 (다시 돌아오면 안되니까 1로 만들어주기)
     li[0][i] = 1
     while len(result) != 0:
         new_li = result[0]
