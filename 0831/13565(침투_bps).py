@@ -19,6 +19,7 @@ def bfs(new_li):
 iny, inx = map(int, input().split())
 li = []
 check = False
+# 데이터 받기
 for i in range(iny):
     s = input()
     newli = []
