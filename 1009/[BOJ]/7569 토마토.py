@@ -15,6 +15,7 @@ dy = [1, -1, 0, 0, 0, 0]
 dx = [0, 0, 1, -1, 0, 0]
 dz = [0, 0, 0, 0, 1, -1]
 
+
 def bfs(z, y, x, n):
     global q, max_day
     # 6방향 체크
@@ -33,9 +34,9 @@ def bfs(z, y, x, n):
 
         # 값이 0이면, q에 좌표 넣기 / 익혀주기 / max_day값 올려주기
         if arr[nz][ny][nx] == 0:
-            max_day = n + 1
-            q.append((nz, ny, nx, max_day))
             arr[nz][ny][nx] = 1
+            max_day = n + 1
+            q.append((nz, ny, nx, n + 1))
 
 
 # 좌표 뽑기
@@ -48,9 +49,9 @@ for i in range(Z):
             if arr[i][j][k] == 1:
                 q.append((i, j, k, day))
 
-
+# q로 구현 => q.pop(0)
 while len(q) != 0:
-    q_list = q.pop()
+    q_list = q.pop(0)
     bfs(q_list[0], q_list[1], q_list[2], q_list[3])
 
 for i in range(Z):
