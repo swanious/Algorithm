@@ -7,6 +7,7 @@
 0 0 1 0 0
 0 0 0 0 0
 '''
+from collections import deque
 
 X, Y, Z = map(int, input().split())
 arr = [[list(map(int, input().split())) for _ in range(Y)] for _ in range(Z)]
@@ -40,7 +41,7 @@ def bfs(z, y, x, n):
 
 
 # 좌표 뽑기
-q = []
+q = deque()
 day = 0
 max_day = 0
 for i in range(Z):
@@ -51,7 +52,7 @@ for i in range(Z):
 
 # q로 구현 => q.pop(0)
 while len(q) != 0:
-    q_list = q.pop(0)
+    q_list = q.popleft()
     bfs(q_list[0], q_list[1], q_list[2], q_list[3])
 
 for i in range(Z):
