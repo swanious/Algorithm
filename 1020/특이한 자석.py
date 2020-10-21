@@ -9,7 +9,7 @@ def rotate(n, d):
         s = magmap[n][-1]
         e = magmap[n][:-1]
         magmap[n] = [s] + e
-    else:
+    else:3
         s = magmap[n][0]
         e = magmap[n][1::]
         magmap[n] = e + [s]
