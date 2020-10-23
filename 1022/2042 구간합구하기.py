@@ -13,28 +13,26 @@
 import sys
 
 
-def guganhap(start, end, depth, idx, mapp):
-    # print(start, end, depth, idx, mapp[depth][idx])
-    if depth == 0:
-        return mapp[0][idx]  # 찾는값을 준다
+def guganhap(start, end, depth, idx, front, back, mapp):
+    # print(start, end, depth, idx, front, back, mapp[depth][idx])
+    mid = (front + back) >> 1
+    if start == end:  # 구하고자 하는 구간의 길이가 1이다 : 그 인덱스 자체의 위치에 있는 값을 바로 가져옴
+        return mapp[0][start]
 
-    if start == (2 * idx) * (1 << (depth - 1)) and end == ((2 * idx) * (1 << depth)) - 1:
+    if depth == 0:
+        return mapp[0][idx]  # 구간 끝까지 올라가면, 찾는값을 준다
+
+    if start == front and end == back:  # 원하는 구간이면 바로 가져온다.
         return mapp[depth][idx]
 
-    elif end < (2 * idx + 1) * (1 << (depth - 1)):  # 오른쪽을 볼 필요없을 경우에는
-        return guganhap(start, end, depth - 1, idx * 2, mapp)  # 왼쪽 길만 돌아본다.
+    elif end <= mid:  # 오른쪽을 볼 필요없을 경우에는
+        return guganhap(start, end, depth - 1, idx * 2, front, mid, mapp)  # 왼쪽 길만 돌아본다.
 
-    elif (2 * idx + 1) * (1 << (depth - 1)) <= start:  # 왼쪽값을 볼 필요없을 경우에는
-        return guganhap(start, end, depth - 1, idx * 2 + 1, mapp)  # 오른쪽 길만 돌아본다.
-    else:
-        return guganhap(start, ((2 * idx + 1) * (1 << (depth - 1))) - 1, depth - 1, idx * 2, mapp) + guganhap(
-            (2 * idx + 1) * (1 << (depth - 1)), end, depth - 1, idx * 2 + 1, mapp)
+    elif mid < start:  # 왼쪽값을 볼 필요없을 경우에는
+        return guganhap(start, end, depth - 1, idx * 2 + 1, mid + 1, back, mapp)  # 오른쪽 길만 돌아본다.
 
-
-# (2 * idx + 1) * (1 << (depth - 1)) == 오른쪽 스타트
-# (2 * idx + 1) * (1 << (depth - 1)) - 1 == 왼쪽 엔드
-# (2 * idx) * (1 << (depth - 1)) == 왼쪽 스타트
-# ((2*idx) * (1<<depth)) -1
+    else:  # 구간이 왼쪽, 오른쪽 둘다 봐야할 경우
+        return guganhap(start, mid, depth - 1, idx * 2, front, mid, mapp) + guganhap(mid + 1, end, depth - 1, idx*2 + 1, mid + 1, back, mapp)
 
 
 n, m, k = map(int, sys.stdin.readline().rstrip().split())
@@ -81,6 +79,5 @@ for i in range(m + k):
     else:
         idx1 = temp[1] - 1  # start idx
         idx2 = temp[2] - 1  # end idx
-        result = guganhap(idx1, idx2, len(mapp) - 1, 0, mapp)  # 구간 합
+        result = guganhap(idx1, idx2, len(mapp) - 1, 0, 0, (1 << (len(mapp) - 1)) - 1, mapp)  # 구간 합
         print(result)
-
