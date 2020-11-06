@@ -4,7 +4,7 @@ from collections import deque
 # 파이프 호환 유효성 검사(갈 수 있는 d 체크)
 valid = {1: [0, 1, 2, 3], 2: [0, 1], 3: [2, 3], 4: [0, 3], 5: [1, 3], 6: [1, 2], 7: [0, 2]}
 
-# 각 방향별로 갈 수 있는 곳 체크
+# 각 방향별로 갈 수 있는 곳 체크 (상, 하, 좌, 우)
 check = [[1, 2, 5, 6], [1, 2, 4, 7], [1, 3, 4, 5], [1, 3, 6, 7]]
 
 # 방향
@@ -13,12 +13,14 @@ d = [(0, -1), (0, 1), (-1, 0), (1, 0)]
 
 def bfs(x, y, cnt):
     global result
-
+    
+    # 현재 위치의 파이프 모양별 갈 수 있는 방향만 돌기
     for i in valid[arr[y][x]]:
         nx = x + d[i][0]
         ny = y + d[i][1]
 
         if 0 <= nx < m and 0 <= ny < n and not visited[ny][nx]:
+            # 갈 곳이 갈 수 있는 곳이면(파이프가 서로 맞물려 있으면)
             if arr[ny][nx] in check[i]:
                 q.append((nx, ny, cnt + 1))
                 visited[ny][nx] = True
