@@ -4,6 +4,7 @@ n = int(input())
 
 q = deque([(1, 0)])
 
+# 현재 화면의 이모티콘 갯수, 복사한 이모티콘 갯수
 visited = dict()
 visited[(1, 0)] = 0
 while q:
