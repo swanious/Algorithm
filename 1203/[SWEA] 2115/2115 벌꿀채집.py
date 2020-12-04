@@ -5,7 +5,7 @@ def choose(r, c):
     max_cost = 0
 
     # 부분집합 만들기
-    for i in range(1 << N):
+    for i in range(1 << M):
         sum_honey = sum_cost = 0
         for j in range(M):
             if i & (1 << j):
@@ -14,14 +14,23 @@ def choose(r, c):
         if sum_honey <= C:
             max_cost = max(max_cost, sum_cost)
 
+    # 첫번째 통보다 값이 크다면
     if max_cost > first[0]:
+        # 행이 같으면서 첫번째 통과 겹친다면
         if r == first[1] and c < first[2] + M:
+            # 과감하게 첫번째 통 갱신
             first = [max_cost, r, c]
         else:
+            # 아니라면 첫번째통을 두번째통으로 밀고
             second = first[:]
+            # 첫번째 통 갱신
             first = [max_cost, r, c]
+    # 두번째 통보다 크다면
     elif max_cost > second[0]:
+        # 첫번째 통과 행이다르거나 (절대 겹칠일 없음)
+        # 첫번째 통과 열이 겹치지 않는다면
         if r != first[1] or c >= first[2] + M:
+            # 두번째 통 갱신
             second = [max_cost, r, c]
 
 
