@@ -22,7 +22,7 @@ def bfs(y, x, cnt):
     for i in range(4):
         ny = y + dy[i]
         nx = x + dx[i]
-        if 0 <= ny < n and 0 <= nx < m and mapp[ny][nx] == 0:
+        if 0 <= ny < n and 0 <= nx < m and not mapp[ny][nx]:
             count_list[ny][nx] = 0
 
         elif 0 <= ny < n and 0 <= nx < m and count_list[ny][nx] == -1:
