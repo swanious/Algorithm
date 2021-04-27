@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2908d3f9-11b0-410c-bfc4-fd7676be38dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21.04.21/boj_5639.py" beforeDir="false" afterPath="$PROJECT_DIR$/21.04.21/boj_5639.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/venv" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.boj_1024">
+  <component name="RunManager" selected="Python.boj_1149">
     <configuration name="boj_1024" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,7 +53,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="boj_1253" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="boj_1149" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21.04.15" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21.04.26" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21.04.15/boj_1253.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21.04.26/boj_1149.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,19 +138,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.boj_1253" />
       <item itemvalue="Python.boj_14499" />
       <item itemvalue="Python.boj_1600" />
       <item itemvalue="Python.boj_5639" />
       <item itemvalue="Python.boj_1024" />
+      <item itemvalue="Python.boj_1149" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.boj_1149" />
         <item itemvalue="Python.boj_1024" />
         <item itemvalue="Python.boj_5639" />
         <item itemvalue="Python.boj_14499" />
         <item itemvalue="Python.boj_1600" />
-        <item itemvalue="Python.boj_1253" />
       </list>
     </recent_temporary>
   </component>
@@ -179,22 +176,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="815" y="288" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619288018671" />
-    <state width="938" height="243" key="GridCell.Tab.0.bottom" timestamp="1619545386306">
+    <state width="938" height="243" key="GridCell.Tab.0.bottom" timestamp="1619547012521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619545386306" />
-    <state width="938" height="243" key="GridCell.Tab.0.center" timestamp="1619545386306">
+    <state width="938" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619547012521" />
+    <state width="938" height="243" key="GridCell.Tab.0.center" timestamp="1619547012521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619545386306" />
-    <state width="938" height="243" key="GridCell.Tab.0.left" timestamp="1619545386306">
+    <state width="938" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619547012521" />
+    <state width="938" height="243" key="GridCell.Tab.0.left" timestamp="1619547012521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619545386306" />
-    <state width="938" height="243" key="GridCell.Tab.0.right" timestamp="1619545386306">
+    <state width="938" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619547012521" />
+    <state width="938" height="243" key="GridCell.Tab.0.right" timestamp="1619547012521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619545386306" />
+    <state width="938" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619547012521" />
     <state x="537" y="178" key="SettingsEditor" timestamp="1619288073304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
