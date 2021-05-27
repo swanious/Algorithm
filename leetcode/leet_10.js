@@ -27,4 +27,10 @@ var isMatch = function(s, p) {
       }
       
   };
-  
+
+
+// 이런 풀이도 가능하다. 정규표현식은 아직 잘 모르겠다... 공부해보는걸로..!
+// var isMatch = function(s, p) {
+//     let regex = new RegExp(p); // regex -> /.*/
+//     return s.match(regex) ? s === s.match(regex)[0] : false;
+// };
