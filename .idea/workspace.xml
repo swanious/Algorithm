@@ -20,107 +20,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f608304-eefd-4eb2-acfa-fb111189fc1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2021/10828.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/1083.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/0829/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2020/0829/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/21.05.11/124나라의숫자.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/21.05.11/124나라의숫자.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/leetcode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Linked_List/24_페어의 노드 스왑.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Linked_List/2_두 수의 덧셈.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Linked_List/328_홀짝 연결 리스트.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Linked_List/92_역순 연결 리스트2(Reverse Linked List 2).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/List/4_두 배열의 중간값(Median of Two Sorted Arrays).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/List/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Queue_Stack/20_유효한 괄호(Valid Parentheses).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Queue_Stack/316 중복 문자 제거(Remove Duplicate Letters).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/Queue_Stack/347 상위 K 빈도 요소(heapq).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/String/3_반복되는 문자를 제외한 가장 긴 문자열(Longest Substring Without Repeating Characters).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/hashtable/생일 문제.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/1000.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/1001.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/1008.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/10171.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/10172.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/10430.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/10718.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/10869.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/10998.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.js/2588.js" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="741801142">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="5652" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="5652" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="algorithm" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2021/17836.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <marker date="1614006184412" expanded="true" signature="537:539" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2021/14940.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2021/1580.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-              <folding>
-                <marker date="1614244513940" expanded="true" signature="1460:1461" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2021/10828.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2021/1083.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,17 +69,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/2021/17836.py" />
-        <option value="$PROJECT_DIR$/2021/14940.py" />
-        <option value="$PROJECT_DIR$/2021/1580.py" />
-        <option value="$PROJECT_DIR$/2021/10828.py" />
-        <option value="$PROJECT_DIR$/2021/1083.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="951" />
     <option name="width" value="978" />
@@ -152,30 +77,6 @@
   <component name="ProjectId" id="1iPu8aNSrZOsWy2P9kyWlk74U1Q" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2021" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -202,18 +103,6 @@
       <recent name="C:\Users\오수완\Desktop\Git\algorithm_TIL\1204" />
       <recent name="C:\Users\오수완\Desktop\Git\algorithm_TIL\1203\[SWEA] 2115" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.1083">
     <configuration name="1083" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -322,11 +211,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.17836" />
+      <item itemvalue="Python.1083" />
       <item itemvalue="Python.14940" />
       <item itemvalue="Python.1580" />
-      <item itemvalue="Python.1083" />
+      <item itemvalue="Python.17836" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
@@ -338,7 +227,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -361,46 +250,17 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="831" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.44161072" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24871607" />
-      <window_info id="Favorites" order="2" side_tool="true" weight="0.3293011" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42037302" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39741752" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -609,54 +469,5 @@
         <watch expression="input" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1249248731/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="3667" column="8" selection-start-line="3667" selection-start-column="8" selection-end-line="3667" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2021/17836.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1614006184412" expanded="true" signature="537:539" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2021/14940.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2021/1580.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-          <folding>
-            <marker date="1614244513940" expanded="true" signature="1460:1461" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2021/10828.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2021/1083.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
