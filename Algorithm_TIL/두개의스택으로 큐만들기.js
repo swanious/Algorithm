@@ -58,3 +58,6 @@ q.enqueue(4);
 console.log(q.dequeue());
 console.log(q.dequeue());
 console.log(q.dequeue());
+console.log(q.dequeue());
+// 큐가 비었으면 null출력
+console.log(q.dequeue());
