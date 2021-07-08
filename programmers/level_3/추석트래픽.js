@@ -30,7 +30,7 @@ function solution(lines) {
   for (var i = 0; i < times.length; i++) {
     var working = 0;
     var stRange = times[i];
-    var edRange = times[i] + 1;
+    var edRange = times[i] + 1; // 시작시간부터 1초 후까지 보기 위해
 
     for (var j = 0; j < arr.length; j++) {
       var st = arr[j][0];
