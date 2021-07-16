@@ -1,34 +1,36 @@
 function solution(n, results) {
   var answer = 0;
-  var G = Array.from(Array(n + 1), () => Array());
+  var visit = Array.from(Array(n), () => Array(n).fill(0));
 
   for (var r of results) {
-    G[r[1]].push(r[0]);
+    visit[r[0] - 1][r[1] - 1] = 1;
+    visit[r[1] - 1][r[0] - 1] = -1;
   }
 
-  for (var i = 1; i < n + 1; i++) {
-    var q = [];
-    var minDis = new Array(n + 1).fill(Number.MAX_SAFE_INTEGER);
-
-    minDis[i] = 0;
-    var visited = new Array(n + 1).fill(false);
-    q.push(i);
-
-    while (q.length) {
-      var from = q.pop();
-
-      G[from].forEach((to) => {
-        if (!visited[to]) {
-          visited[to] = true;
-          q.push(to);
-        }
-        minDis[to] =
-          minDis[to] > minDis[from] + 1 ? minDis[from] + 1 : minDis[to];
-      });
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      if (visit[i][j] === 1) {
+        let index = [];
+        // A를 이긴 사람들은 A에게 패배한사람한테 무조건 이긴다. (반대도 성립)
+        visit[i].map((v, idx) => {
+          if (v === -1) index.push(idx);
+        });
+        index.map((v) => {
+          visit[j][v] = -1;
+        });
+      } else if (visit[i][j] === -1) {
+        let index = [];
+        visit[i].map((v, idx) => {
+          if (v === 1) index.push(idx);
+        });
+        index.map((v) => {
+          visit[j][v] = 1;
+        });
+      }
     }
-    minDis.filter((v, idx) => {
-      if (v == Number.MAX_SAFE_INTEGER || idx === 0) return;
-    });
   }
+  visit.map((v) => {
+    if (v.filter((v) => v === 0).length === 1) answer++;
+  });
   return answer;
 }
