@@ -1,4 +1,4 @@
-// 미로탈출
+// 미로탈출 - https://programmers.co.kr/learn/courses/30/lessons/81304
 
 function solution(n, start, end, roads, traps) {
   const adj = Array.from({ length: n + 1 }, () => []);
