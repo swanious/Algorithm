@@ -1,4 +1,5 @@
 // 미로탈출 - https://programmers.co.kr/learn/courses/30/lessons/81304
+// 참고 - https://jun-choi-4928.medium.com/javascript%EB%A1%9C-heap-priority-queue-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-8bc13bf095d9
 
 function solution(n, start, end, roads, traps) {
   const adj = Array.from({ length: n + 1 }, () => []);
