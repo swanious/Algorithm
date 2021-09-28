@@ -12,7 +12,7 @@ const REVERSE = { 1: 2, 2: 1, 3: 4, 4: 3 };
 const solution = (N, time, mapp) => {
   // 시간이 0보다 클때 반복
   while (time > 0) {
-    // 미생물 이동
+    // 미생물 이동 + 벽에 닿을때 미생물 죽이기
     const tempMap = new Map();
     mapp.forEach((v) => {
       let [y, x, vol, dir] = v;
@@ -25,6 +25,7 @@ const solution = (N, time, mapp) => {
       }
       tempMap.set([ny, nx], [[vol, dir]]);
     });
+    // console.log(tempMap);
 
     // 같은 위치인 미생물 구하기
     let tempObj = {};
@@ -64,8 +65,6 @@ const solution = (N, time, mapp) => {
 T = Number(input());
 for (let tc = 1; tc < T + 1; tc++) {
   const [N, M, K] = input().split(" ").map(Number); // 배열크기, 격리시간, 미생물개수
-  const mapp = Array.from(Array(N), () => Array(N).fill(-1));
-
   const arr = [];
 
   for (let i = 0; i < K; i++) {
