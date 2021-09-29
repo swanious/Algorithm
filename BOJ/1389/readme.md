@@ -46,10 +46,6 @@ for (let i = 1; i < N + 1; i++) {
 console.log(ans.indexOf(Math.min(...ans.slice(1))));
 ```
 
-```javascript
-
-```
-
 ## 후기
 
 - 기본적인 bfs 문제
