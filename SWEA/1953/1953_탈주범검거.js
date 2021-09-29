@@ -62,7 +62,7 @@ for (let tc = 1; tc < T + 1; tc++) {
   let ans = 1;
   const q = new Queue();
   q.push([sy, sx, mapp[sy][sx]])
-  while (--t > 0) {
+  while (--t > 0) { 
     let size = q.size;
     while (size-- > 0) {
       const [y, x, d] = q.popleft();
@@ -76,6 +76,6 @@ for (let tc = 1; tc < T + 1; tc++) {
       })
     }
   }
-
+  
   console.log(`#${tc} ${ans}`);
 }
